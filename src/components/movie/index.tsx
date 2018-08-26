@@ -44,7 +44,7 @@ export class MovieView extends React.Component<MovieProps, {}> {
     }
     private renderNotFound(id: string): JSX.Element {
         return <NonIdealState
-            visual={"mobile-video"}
+            icon={"mobile-video"}
             title="Not Found"
             description={`id ${id} not found`}
         />
