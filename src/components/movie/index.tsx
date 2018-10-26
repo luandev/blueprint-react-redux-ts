@@ -1,13 +1,10 @@
-
+import * as EventView from 'src/store/movie';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import * as EventView from 'src/store/movie';
 import { IApplicationState } from 'src/store';
-import { RouteComponentProps } from 'react-router-dom';
-
-import './movie.css';
 import { NonIdealState } from '@blueprintjs/core';
-
+import { RouteComponentProps } from 'react-router-dom';
+import './movie.scss';
 
 
 type MovieProps =

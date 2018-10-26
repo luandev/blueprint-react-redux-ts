@@ -1,8 +1,8 @@
-/*jshint esversion: 6 */
+/* jshint node: true */
+/* jshint esversion: 6 */ 
+'use strict';
 
 (function () {
-    'use strict';
-
     console.log('Deploy Start...');
     
     const fs = require('fs-extra');

@@ -1,4 +1,6 @@
-'use strict';
+/* jshint node: true */
+/* jshint esversion: 6 */
+/* jshint node: true */ /* jshint esversion: 6 */ 'use strict';
 
 if (typeof Promise === 'undefined') {
   // Rejection tracking prevents a common issue where React gets into an

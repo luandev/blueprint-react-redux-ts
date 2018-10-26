@@ -1,12 +1,12 @@
+import * as MovieStore from 'src/store/movie';
 import * as React from 'react';
+import { actionCreators } from 'src/store/movie/';
+import { Button } from '@blueprintjs/core';
 import { connect } from 'react-redux';
 import { IApplicationState } from 'src/store';
-import { RouteComponentProps, Link } from 'react-router-dom';
-import {  Button } from '@blueprintjs/core';
-import * as MovieStore from 'src/store/movie';
-import { actionCreators } from 'src/store/movie/';
+import { Link, RouteComponentProps } from 'react-router-dom';
+import './movies.scss';
 
-import './movies.css';
 
 
 type MoviesProps = MovieStore.IMovieStore

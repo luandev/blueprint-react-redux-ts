@@ -1,10 +1,10 @@
-
 import * as React from 'react';
+import { Alignment, Button, Navbar } from '@blueprintjs/core';
 import { Link } from 'react-router-dom';
-import { Navbar, Alignment, Button } from '@blueprintjs/core';
+import './header.scss';
 
 
-import './header.css';
+
 
 
 // import logo from './logo.svg';

@@ -1,4 +1,4 @@
-'use strict';
+/* jshint node: true */ /* jshint esversion: 6 */ 'use strict';
 
 const errorOverlayMiddleware = require('react-dev-utils/errorOverlayMiddleware');
 const noopServiceWorkerMiddleware = require('react-dev-utils/noopServiceWorkerMiddleware');

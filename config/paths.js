@@ -1,4 +1,4 @@
-'use strict';
+/* jshint node: true */ /* jshint esversion: 6 */ 'use strict';
 
 const path = require('path');
 const fs = require('fs');
